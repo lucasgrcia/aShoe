@@ -1,10 +1,11 @@
 import "./App.css";
-import MyComponent from "./components/MyComponent";
+import "bootstrap/dist/css/bootstrap.css";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   return (
     <div className="App">
-      <MyComponent name={"Lucas"} />
+      <LoginForm />
     </div>
   );
 }
