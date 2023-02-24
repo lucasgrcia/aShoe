@@ -1,6 +1,6 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
-import LoginForm from "./components/LoginForm";
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import LoginForm from "./pages/login/LoginForm";
 
 function App() {
   return (
